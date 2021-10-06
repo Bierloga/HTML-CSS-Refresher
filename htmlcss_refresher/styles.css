@@ -1,0 +1,70 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-rows: 150px 75px;
+    grid-template-columns: 300px 300px;
+    margin: 100px
+}
+
+.profilePicture {
+    width: 40px;
+    display:inline;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 20px;
+    display:inline;
+    margin-right: 50px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 17px;
+    margin-top: 0;
+    color:lightslategrey;
+    margin-left: 5px
+    
+}
+.cardContainer > div {
+    border: 2px gray solid;
+}
+
+p {
+    margin-left: 5px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.accept{
+    display: inline;
+    color:green;
+    padding-left: 20px;
+    border: lightgreen 1px solid;
+    margin-top: 15px;
+ 
+    
+}
+
+h1.accept{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.decline {
+    display:inline;
+    color:red;
+    border: red 1px solid;
+    width: auto;
+    
+}
